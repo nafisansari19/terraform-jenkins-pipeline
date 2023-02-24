@@ -2,7 +2,7 @@
 
 terraform {
   backend "s3" {
-    bucket = "tf-jenkins-project-987321"
+    bucket = "blue-team-bucket-234"
     key    = "remote.tfstate"
     region = "us-east-1"
   }
